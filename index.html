@@ -14,17 +14,23 @@
 <body>
 <div class="weather-app">
    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required/>
-        <input type="submit" value="search"/>
+      <for class="search-form">
+        <input type="search" placeholder="Enter a city.." required class="search-form-input"/>
+        <input type="submit" value="Search" class="search-form-button"/>
       </form>
    </header>
     <main>
-      <div>  <h1>Arusha</h1>
-        <p>
-            Tuessay 14:49, Scattered clouds</br> Humidity: 66%, Wind: 3.13km/h
-        </p></div>
-        <div>⛅12 °C</div>
+    <div class="weather-app-data">
+        <div>  
+            <h1 class="weather-app-city">Arusha</h1>
+            <p class="weather-app-details">
+              Tuessay 14:49, Scattered clouds
+              </br> 
+             <strong>Humidity: </strong> 66%, Wind: <strong> 3.13km/hr</strong> 
+           </p>
+        </div>
+        <div class="weather-app-temperature">⛅12 °C</div>
+    </div>
     </main>
 
 
